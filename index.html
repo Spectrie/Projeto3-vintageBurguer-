@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VintageBurguer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Poor+Story&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Poor+Story&family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg mt-3 sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand fs-2">VintageBurguer</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse"data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fs-4">
+                        <a href="#qm-somos" class="nav-link">Quem somos</a>
+                    </li>
+                    <li class="nav-item fs-4">
+                        <a href="#novidade" class="nav-link">Novidades</a>
+                    </li>
+                    <li class="nav-item fs-4">
+                        <a href="#cardapio" class="nav-link">Cardápio</a>
+                    </li>
+                    <li class="nav-item fs-4">
+                        <a href="#Fale-conosco" class="nav-link">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section class="justify-content-center d-flex align-items-center mt-5 w-100 h-100">
+            <div class="carousel slide text-center" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval=3000>
+                        <img  src="./imagens/american-diner-1168606_1280.jpg" class="rounded" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/billiards-1677103_1280.jpg" class="rounded" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/corner-table-1168607_1280.jpg" class="rounded" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>   
+        </section>
+        <section id="qm-somos" class="mt-5 pb-5">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./imagens/restaurant-926524_1280.jpg" class="d-block w-100 rounded" alt="">
+                    </div>
+                    <div class="col-md-7 mt-3 md-0 sobre">
+                        <h2>Sobre a hamburgueria:</h2>
+                        <p class="fs-4 qm-somos-texto">
+                            A Vintage Burger é mais do que apenas uma hamburgueria; é uma experiência gastronômica que celebra a tradição, a qualidade e o sabor autêntico. Nossa história começa com a paixão pela culinária e o desejo de recriar a magia dos clássicos hambúrgueres, inspirados nas décadas passadas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="novidade" class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Novidades:</h2>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/abstract-1238247_1280.jpg" alt="">
+                            <div class="card-body">
+                                <h4>Mega Blend</h4>
+                                <p class="fs-5 card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero repudiandae necessitatibus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/hamburger-1238246_1280.jpg" alt="">
+                            <div class="card-body">
+                                <h4>Mega Blend</h4>
+                                <p class="fs-5 card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero repudiandae necessitatibus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/abstract-1238247_1280.jpg" alt="">
+                            <div class="card-body">
+                                <h4>Mega Blend</h4>
+                                <p class="fs-5 card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero repudiandae necessitatibus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/hamburger-2707320_1280.jpg" alt="">
+                            <div class="card-body">
+                                <h4>Mega Blend</h4>
+                                <p class="fs-5 card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero repudiandae necessitatibus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Nosso cardápio</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-3">
+                        <nav class="purplebord nav nav-pills flex-column nav-cardapio rounded">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fs-5 rounded fw-bold text-start nav-link active">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#p-principal" class="fs-5 rounded fw-bold text-start nav-link">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="fs-5 rounded fw-bold text-start nav-link">Bebidas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fs-5 rounded fw-bold text-start nav-link">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Entrada 1.jpg" alt="">
+                                        <h3 class="pt-2">Batata frita</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Entrada 2.jpg" alt="">
+                                        <h3 class="pt-2">Tira gosto de carne</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Entrada 3.jpg" alt="">
+                                        <h3 class="pt-2">Empada</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Entrada 2.jpg" alt="">
+                                        <h3 class="pt-2">Tira gosto de carne</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Entrada 1.jpg" alt="">
+                                        <h3 class="pt-2">Batata frita</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Entrada 2.jpg" alt="">
+                                        <h3 class="pt-2">Tira gosto de carne</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Entrada 3.jpg" alt="">
+                                        <h3 class="pt-2">Empada</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Entrada 2.jpg" alt="">
+                                        <h3 class="pt-2">Tira gosto de carne</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="p-principal">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/hamburger-1238246_1280.jpg" alt="">
+                                        <h3 class="pt-2">Mega blend</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/hamburger-2707320_1280.jpg" alt="">
+                                        <h3 class="pt-2">Rolling stone</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/abstract-1238247_1280.jpg" alt="">
+                                        <h3 class="pt-2">Empada</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/hamburger-1238246_1280.jpg" alt="">
+                                        <h3 class="pt-2">Tira gosto de carne</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/hamburger-1238246_1280.jpg" alt="">
+                                        <h3 class="pt-2">Mega blend</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/hamburger-2707320_1280.jpg" alt="">
+                                        <h3 class="pt-2">Rolling stone</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/abstract-1238247_1280.jpg" alt="">
+                                        <h3 class="pt-2">Empada</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/hamburger-1238246_1280.jpg" alt="">
+                                        <h3 class="pt-2">Tira gosto de carne</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Cerveja.jpg" alt="">
+                                        <h3 class="pt-2">Caneca de cerveja</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Drink de morango.jpg" alt="">
+                                        <h3 class="pt-2">Coca cola</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Milk choco.jpg" alt="">
+                                        <h3 class="pt-2">Milk shake de chocolate</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/Milk morango.jpg" alt="">
+                                        <h3 class="pt-2">Milk shake de morango</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/pUDIM.jpg" alt="">
+                                        <h3 class="pt-2">Pudim de chocolate</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/SORVETE.jpg" alt="">
+                                        <h3 class="pt-2">Sorvete</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/cHURROS.jpg" alt="">
+                                        <h3 class="pt-2">Churros</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/SORVETE.jpg" alt="">
+                                        <h3 class="pt-2">Sorvete</h3>
+                                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque officiis dolorem</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5" id="Fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2>Fale conosco:</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="fs-4 form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="fs-4 form-label fw-bold">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="number" class="fs-4 form-label fw-bold">Seu número</label>
+                                <input type="number" id="number" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="fs-4 form-label fw-bold">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="button" class="textcolor fs-5">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-3">
+                                Redes sociais:
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-2">
+                                    <a href="">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-2">
+                                    <a href="">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-2">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3>Endereço:</h3>
+                        </div>
+                        <p class="fs-5">Rua projeto 3 N 145, bairro burguer - Macapá - AP</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
